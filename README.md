@@ -33,3 +33,5 @@ Database -> Postgresql
 lsof -i:3000
 kill -9 pid_number
 ```
+
+<img width="599" alt="image" src="https://github.com/Kimuchan0312/my-express-server/assets/75709261/f3280e60-dab7-4559-889c-83e89ce37a68">
