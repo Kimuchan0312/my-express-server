@@ -14,3 +14,22 @@ alias kim='npm run commit'
 3. Install unit test by using jest
 
 4. OPTIONAL install https://github.com/typicode/husky for git hooks
+
+
+web app/mobile app (--> third party firebase) + third party app (token)
+
+----------
+
+Backend -> multiple services -> user service + payment service + profile service + delivery service + booking service
+
+----------
+
+Database -> Postgresql
+
+
+## delete port
+
+```
+lsof -i:3000
+kill -9 pid_number
+```
