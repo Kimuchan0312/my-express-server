@@ -4,14 +4,19 @@
   "private": true,
   "scripts": {
     "start": "nodemon app.js",
-    "commit": "npx git-cz"
+    "commit": "npx git-cz",
+    "test": "jest"
   },
   "config": {
     "commitizen": {
       "path": "git-cz"
     }
   },
+  "jest": {
+    "verbose": true
+  },
   "dependencies": {
+    "@types/jest": "^29.5.2",
     "cookie-parser": "~1.4.4",
     "debug": "~2.6.9",
     "express": "~4.16.1",
